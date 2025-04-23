@@ -58,40 +58,12 @@
    Continuing the legacy of Vanced
 </p>
 
-# 👋🧩 ReVanced Patches template
+# 👋🧩 ReVanced Patches
 
 ![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/ReVanced/revanced-patches-template/release.yml)
 ![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)
 
-Template repository for ReVanced Patches.
-
-## ❓ About
-
-This is a template to create a new ReVanced Patches repository.  
-The repository can have multiple patches, and patches from other repositories can be used together.
-
-For an example repository, see [ReVanced Patches](https://github.com/revanced/revanced-patches).
-
-## 🚀 Get started
-
-To start using this template, follow these steps:
-
-1. [Create a new repository using this template](https://github.com/new?template_name=revanced-patches-template&template_owner=ReVanced)
-2. Set up the [build.gradle.kts](patches/build.gradle.kts) file (Specifically, the [group of the project](patches/build.gradle.kts#L1),
-and the [About](patches/build.gradle.kts#L5-L11))
-3. Update dependencies in the [libs.versions.toml](gradle/libs.versions.toml) file
-4. [Create a pass-phrased GPG master key and subkey](https://mikeross.xyz/create-gpg-key-pair-with-subkeys/)
-   1. Add the private key as a secret named [GPG_PRIVATE_KEY](.github/workflows/release.yml#L52) to your repository
-   2. Add the passphrase as a secret named [GPG_PASSPHRASE](.github/workflows/release.yml#L53) to your repository
-   3. Add the fingerprint of the GPG subkey as a secret named [GPG_FINGERPRINT](.github/workflows/release.yml#L54) to your repository
-5. Set up the [README.md](README.md) file[^1] (e.g, title, description, license, summary of the patches
-that are included in the repository), the [issue templates](.github/ISSUE_TEMPLATE)[^2]  and the [contribution guidelines](CONTRIBUTING.md)[^3]
-
-🎉 You are now ready to start creating patches!
-
-[^1]: [Example README.md file](https://github.com/ReVanced/revanced-patches/blob/main/README.md)
-[^2]: [Example issue templates](https://github.com/ReVanced/revanced-patches/tree/main/.github/ISSUE_TEMPLATE)
-[^3]: [Example contribution guidelines](https://github.com/ReVanced/revanced-patches/blob/main/CONTRIBUTING.md)
+My repository for ReVanced Patches.
 
 ## 🔘 Optional steps
 
@@ -118,19 +90,19 @@ The `publish` task depends on the `buildAndroid` task, so it will be run automat
 
 ### 📙 Contributing
 
-Thank you for considering contributing to ReVanced Patches template.  
+Thank you for considering contributing to ReVanced Patches.  
 You can find the contribution guidelines [here](CONTRIBUTING.md).
 
 ### 🛠️ Building
 
-To build ReVanced Patches template,
+To build ReVanced Patches,
 you can follow the [ReVanced documentation](https://github.com/ReVanced/revanced-documentation).
 
 ## 📜 Licence
 
-ReVanced Patches template is licensed under the GPLv3 licence.
+ReVanced Patches is licensed under the GPLv3 licence.
 Please see the [license file](LICENSE) for more information.
 [tl;dr](https://www.tldrlegal.com/license/gnu-general-public-license-v3-gpl-3) you may copy, distribute
-and modify ReVanced Patches template as long as you track changes/dates in source files.
-Any modifications to ReVanced Patches template must also be made available under the GPL,
+and modify ReVanced Patches as long as you track changes/dates in source files.
+Any modifications to ReVanced Patches must also be made available under the GPL,
 along with build & install instructions.

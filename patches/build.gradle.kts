@@ -1,13 +1,13 @@
-group = "app.revanced"
+group = "dev.arjix"
 
 patches {
     about {
-        name = "ReVanced Patches template"
-        description = "Patches template for ReVanced"
-        source = "git@github.com:revanced/revanced-patches-template.git"
-        author = "ReVanced"
-        contact = "contact@revanced.app"
-        website = "https://revanced.app"
+        name = "Revanced Patches (Arjix)"
+        description = "Patches by Arjix (me)"
+        source = "git@github.com:ArjixWasTaken/revanced-patches.git"
+        author = "ArjixWasTaken"
+        contact = "me@arjix.dev"
+        website = "https://revanced.arjix.dev"
         license = "GNU General Public License v3.0"
     }
 }
